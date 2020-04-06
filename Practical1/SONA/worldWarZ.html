@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SONA Cinemas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container-fluid,
+        nav ul,
+        footer {
+            background-color: black;
+        }
+
+        .member {
+            font-size: 100%;
+            margin: 40px;
+            padding: 15px;
+            text-decoration: underline;
+        }
+
+        #login:link,
+        #signup:link {
+            color: white;
+        }
+
+        #login:hover,
+        #signup:hover {
+            font-size: 110%;
+            color: lightgrey;
+        }
+
+        .nav-item {
+            padding: 10px 73.5px 10px 73.5px;
+            letter-spacing: 0.5px;
+            border: 1px solid darkgrey;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div id="logo">
+                                <a href="home.html"><img src="logo.png" alt="SONA"
+                                        style="width:190px;height:190px;margin: 10px;" /></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <img src="advertisement.png" alt="Hotlinks" usemap="#ads" style="margin: 45px;" />
+                            <map name="ads">
+                                <area shape="rect" coords="774, 68, 896, 100"
+                                    href="https://www.hotlink.com.my/en/whats-new/" />
+                                <area shape="default" href="https://www.google.com/" />
+                            </map>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="member">
+                                <p><a href="login.html" id="login">L O G &nbsp&nbsp&nbsp I N</a></p>
+                                <p><a href="signup.html" id="signup">S I G N &nbsp U P</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--NAVIGATION-->
+        <nav class="navbar-expand-sm navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="showtimes.html">Showtimes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="memberships.html">Memberships</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="promotions.html">Promotions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <h1>World War Z</h1>
+
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Md6Dvxdr0AQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe> <br>
+            Movie Name : World War Z <br>
+            Movie Cast : Bard Pitt , David Morse , James Badge Dale , Matthew Fox, Fana Mokoena <br>
+            Synopsis : When former U.N. investigator Gerry Lane (Brad Pitt) and his family get stuck in urban gridlock,
+            he senses that it's no ordinary traffic jam. His suspicions are confirmed when, suddenly, the city erupts
+            into chaos. A lethal virus, spread through a single bite, is turning healthy people into something vicious,
+            unthinking and feral. As the pandemic threatens to consume humanity, Gerry leads a worldwide search to find
+            the source of the infection and, with luck, a way to halt its spread. <br>
+            Running Time : 2h 3m <br>
+            Subtitle : English <br>
+            Released Date : 1 May 2020 <br>
+            Distributor : Paramount Pictures <br>
+        </p>
+
+
+
+        <!--FOOTER-->
+        <footer class="pt-4 ">
+            <p style="text-align: center;letter-spacing: 0.5px;">Follow Us</p>
+
+            <div class="col-md-4 mx-auto " style="text-align: center;">
+                <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook"
+                        style="width:50px; height:50px;border-radius: 50%"></a>
+                <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram"
+                        style="width:50px; height:50px;border-radius: 50%"></a>
+                <a href="https://www.twitter.com/"><img src="twitter.png" alt="Twitter"
+                        style="width:50px; height:50px;border-radius: 50%"></a>
+            </div>
+            </br>
+            <h6 style="text-align:center; padding-bottom: 20px; margin-bottom: 0px">All Content Copyright &copy; of SONA
+                Cinemas Sdn Bhd 2020. All Rights Reserved.</h6>
+        </footer>
+</body>
+
+</html>
